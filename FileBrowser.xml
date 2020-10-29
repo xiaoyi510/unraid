@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container>
   <Name>FileBrowser</Name>
-  <Repository>80x86/filebrowser:2.9.1-amd64</Repository>
+  <Repository>80x86/filebrowser:2.9.3-amd64</Repository>
   <Registry>https://hub.docker.com/r/80x86/filebrowser</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
@@ -12,7 +12,7 @@
     使用荒野无灯大神的镜像，具体使用教程可访问https://www.lxg2016.com/54202.html查看
   </Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:8083]</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
   <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
   <PostArgs></PostArgs>
@@ -28,7 +28,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>想管理的路径</HostDir>
+      <HostDir>/mnt/user</HostDir>
       <ContainerDir>/myfiles</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -45,7 +45,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>on或off</Value>
+      <Value>off</Value>
       <Name>SSL</Name>
       <Mode/>
     </Variable>
@@ -55,7 +55,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>8083</Value>
+      <Value>8080</Value>
       <Name>WEB_PORT</Name>
       <Mode/>
     </Variable>
