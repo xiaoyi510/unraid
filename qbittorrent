@@ -14,7 +14,7 @@
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8082]</WebUI>
   <Icon>https://github.com/louis000008/unraid/blob/master/qbittorrent.png</Icon>
-  <ExtraParams></ExtraParams>
+  <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
   <PostArgs></PostArgs>
   <CPUset/>
   <DateInstalled></DateInstalled>
@@ -50,17 +50,12 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>off</Value>
-      <Name>SSL</Name>
+      <Value>8888</Value>
+      <Name>BT_PORT</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>000</Value>
-      <Name>UMASK_SET</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>8080</Value>
+      <Value>8082</Value>
       <Name>WEB_PORT</Name>
       <Mode/>
     </Variable>
