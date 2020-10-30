@@ -12,9 +12,9 @@
     使用荒野无灯大神的qbittorrent镜像
   </Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:8081]</WebUI>
+  <WebUI>http://[IP]:[PORT:8082]</WebUI>
   <Icon>https://github.com/louis000008/unraid/blob/master/qbittorrent.png</Icon>
-  <ExtraParams>--mount type=tmpfs,destination=/tmp</ExtraParams>
+  <ExtraParams></ExtraParams>
   <PostArgs></PostArgs>
   <CPUset/>
   <DateInstalled></DateInstalled>
@@ -23,13 +23,18 @@
   <Description></Description>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/filebrowser</HostDir>
+      <HostDir>/mnt/user/appdata/qbittorrent/config</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
+      <HostDir>/mnt/user/appdata/qbittorrent/data</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
       <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/myfiles</ContainerDir>
+      <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
