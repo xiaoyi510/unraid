@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container>
   <Name>qbittorrent</Name>
-  <Repository>80x86/qbittorrent:4.3.0-alpine-3.12-amd64</Repository>
+  <Repository>80x86/qbittorrent:4.3.0-focal-20200925-amd64</Repository>
   <Registry>https://hub.docker.com/r/80x86/qbittorrent</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
@@ -40,17 +40,17 @@
   </Data>
   <Environment>
     <Variable>
-      <Value>0</Value>
+      <Value>1000</Value>
       <Name>PUID</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>0</Value>
+      <Value>100</Value>
       <Name>PGID</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>8888</Value>
+      <Value>8999</Value>
       <Name>BT_PORT</Name>
       <Mode/>
     </Variable>
