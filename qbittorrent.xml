@@ -9,7 +9,7 @@
   <Project>https://hub.docker.com/r/80x86/qbittorrent</Project>
   <Overview>qbittorrent</Overview>
   <Description>
-    使用荒野无灯大神的qbittorrent镜像
+    使用荒野无灯大神的qbittorrent镜像qbittorrent:4.3.0-focal-20200925-amd64
   </Description>
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8082]</WebUI>
