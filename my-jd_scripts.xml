@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>jd_scripts</Name>
+  <Repository>akyakya/jd_scripts</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/lxk0301/jd_scripts</Project>
+  <Overview>&#x4EAC;&#x4E1C;&#x8585;&#x7F8A;&#x6BDB;</Overview>
+  <Category>Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Samuel-0-0/Unraid_Templates/master/icons/jd.jpeg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1608615753</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>&#x4EAC;&#x4E1C;&#x8585;&#x7F8A;&#x6BDB;</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/jd_scripts2</HostDir>
+      <ContainerDir>/scripts/logs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>pt_key=AAJf4YbHADAtdLbn3O3ooRLGaYgQl7zABRbNgmpv6JhfCxGZRaVvKWFXO95jvRqeYZmLnaozrzo;pt_pin=washmi;</Value>
+      <Name>JD_COOKIE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>SCU128791Tf4f7244a371fcd90268dab2e014527415fb9fab920903</Value>
+      <Name>PUSH_KEY</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>tbr2sdwaqlg6u22buljyxeak7e3h7wlwy7o5jii@apnhj4aa2f3yyfyq5v7trhis7wzdoqcwmliunalzrt5ri7dcdcya</Value>
+      <Name>PLANT_BEAN_SHARECODES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>8b84b9152b7f4a6d90ece3707349f2e8@578dfcc9d4ba4d26a1cd1121d8d64223</Value>
+      <Name>FRUITSHARECODES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>MTE1NDQ5MzYwMDAwMDAwNDE0NjYwNjU=@MTE1NDAxNzgwMDAwMDAwNDI2MDczNDk=</Value>
+      <Name>PETSHARECODES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>_oEwD5gxWLpBkI1DXj1KVA==@Kiv-S-OL3OPou4Zl6nwAism-cNlLVlXhxJx6n7gueEw=</Value>
+      <Name>DREAM_FACTORY_SHARE_CODES</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>P04z54XCjVWnYaS5jQNAGL83H9KnPRvXLA@P04z54XCjVWnYaS5uC3krVJd6jHBQfg</Value>
+      <Name>DDFACTORY_SHARECODES</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Path" Target="/scripts/logs" Default="" Mode="rw" Description="Path" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jd_scripts2</Config>
+  <Config Name="&#x4EAC;&#x4E1C;cookie" Target="JD_COOKIE" Default="" Mode="" Description="&#x591A;&#x4E2A;&#x8D26;&#x53F7;&#x7684;cookie&#x4F7F;&#x7528;&amp;amp;&#x9694;&#x5F00;" Type="Variable" Display="always" Required="true" Mask="false">pt_key=AAA;pt_pin=BBB;</Config>
+  <Config Name="&#x5FAE;&#x4FE1;&#x63A8;&#x9001;secret" Target="PUSH_KEY" Default="" Mode="" Description="&#x5FAE;&#x4FE1;&#x63A8;&#x9001;secret" Type="Variable" Display="always" Required="false" Mask="false">S333333</Config>
+  <Config Name="&#x79CD;&#x8C46;&#x5F97;&#x8C46;&#x4E92;&#x52A9;&#x7801;" Target="PLANT_BEAN_SHARECODES" Default="" Mode="" Description="&#x79CD;&#x8C46;&#x5F97;&#x8C46;&#x4E92;&#x52A9;&#x7801;" Type="Variable" Display="always" Required="false" Mask="false">tbr2sdwaqlg6u22buljyxeak7e3h7wlwy7o5jii@apnhj4aa2f3yyfyq5v7trhis7wzdoqcwmliunalzrt5ri7dcdcya</Config>
+  <Config Name="&#x4E1C;&#x4E1C;&#x519C;&#x573A;&#x4E92;&#x52A9;&#x7801;" Target="FRUITSHARECODES" Default="" Mode="" Description="&#x4E1C;&#x4E1C;&#x519C;&#x573A;&#x4E92;&#x52A9;&#x7801;" Type="Variable" Display="always" Required="false" Mask="false">8b84b9152b7f4a6d90ece3707349f2e8@578dfcc9d4ba4d26a1cd1121d8d64223</Config>
+  <Config Name="&#x4E1C;&#x4E1C;&#x840C;&#x5BA0;&#x4E92;&#x52A9;&#x7801;" Target="PETSHARECODES" Default="" Mode="" Description="&#x4E1C;&#x4E1C;&#x840C;&#x5BA0;&#x4E92;&#x52A9;&#x7801;" Type="Variable" Display="always" Required="false" Mask="false">MTE1NDQ5MzYwMDAwMDAwNDE0NjYwNjU=@MTE1NDAxNzgwMDAwMDAwNDI2MDczNDk=</Config>
+  <Config Name="&#x4EAC;&#x559C;&#x5DE5;&#x5382;&#x4E92;&#x52A9;&#x7801;" Target="DREAM_FACTORY_SHARE_CODES" Default="" Mode="" Description="&#x4EAC;&#x559C;&#x5DE5;&#x5382;&#x4E92;&#x52A9;&#x7801;" Type="Variable" Display="always" Required="false" Mask="false">_oEwD5gxWLpBkI1DXj1KVA==@Kiv-S-OL3OPou4Zl6nwAism-cNlLVlXhxJx6n7gueEw=</Config>
+  <Config Name="&#x4E1C;&#x4E1C;&#x5DE5;&#x5382;&#x4E92;&#x52A9;&#x7801;" Target="DDFACTORY_SHARECODES" Default="" Mode="" Description="&#x4E1C;&#x4E1C;&#x5DE5;&#x5382;&#x4E92;&#x52A9;&#x7801;" Type="Variable" Display="always" Required="false" Mask="false">P04z54XCjVWnYaS5jQNAGL83H9KnPRvXLA@P04z54XCjVWnYaS5uC3krVJd6jHBQfg</Config>
+</Container>
