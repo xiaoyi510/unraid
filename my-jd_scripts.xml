@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>jd_scripts</Name>
-  <Repository>akyakya/jd_scripts</Repository>
+  <Repository>lxk0301/jd_scripts</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
